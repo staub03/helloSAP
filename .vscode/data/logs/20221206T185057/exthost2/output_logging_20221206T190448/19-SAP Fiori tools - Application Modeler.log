@@ -1,0 +1,40 @@
+19:04:57 [INFO] - Running activation sequence for Fiori tools - Application Modeler
+19:04:57 [INFO] - Configurations: 'sap.ux.applicationModeler.showJsonSchemas': false; isTheia(): false; isAppStudio(): true
+19:04:58 [INFO] - Register Fiori tools file system for configurations...
+19:04:58 [INFO] - ...Fiori tools file system registered in 0.866ms
+19:04:58 [INFO] - Register views for configurations...
+19:04:58 [INFO] - ...views for configurations registered in 1.057ms
+19:04:58 [INFO] - Register commands...
+19:04:58 [INFO] - ...commands registered in 4.531ms
+19:04:58 [INFO] - Activating sync module...
+19:04:58 [INFO] - Virtual file system ftfs initialized in 0.218ms
+19:04:58 [INFO] - Searching for projects in these workspace folders: 
+[ '/home/user/projects/SmartCanteen' ]
+19:04:59 [INFO] - SAP UX projects found and added in 908.887ms
+19:04:59 [INFO] - Start watching **/package.json
+19:04:59 [INFO] - package.json watched in 1.092ms
+19:04:59 [INFO] - Start watching for workspace folder changes
+19:04:59 [INFO] - Workspace folders watched in 0.584ms
+19:04:59 [INFO] - Configs watched in 0.262ms
+19:04:59 [INFO] - ...sync module activated in 913.758ms
+19:04:59 [INFO] - Activating launch config integration
+19:04:59 [INFO] - Handler for Fiori launch configuration registered
+19:04:59 [INFO] - ...launch config integration activated in 1.775ms
+19:04:59 [INFO] - Activating migration module...
+19:04:59 [INFO] - SAP Fiori tools - Application Modeler
+'Migration start watching for workspace folder changes'
+19:04:59 [INFO] - Workspace folders watched in 0.669ms
+19:04:59 [INFO] - SAP Fiori tools - Application Modeler
+'Migration start watching **/package.json'
+19:04:59 [INFO] - package.json watched in 0.781ms
+19:04:59 [INFO] - SAP Fiori tools - Application Modeler
+'Migration start watching **/pom.xml'
+19:04:59 [INFO] - pom.xml watched in 0.985ms
+19:04:59 [INFO] - SAP Fiori tools - Application Modeler
+'Migration start watching **/neo-app.json'
+19:04:59 [INFO] - neo-app.json watched in 0.657ms
+19:04:59 [INFO] - SAP Fiori tools - Application Modeler
+'Migration start watching **/manifest.json'
+19:04:59 [INFO] - manifest.json watched in 0.700ms
+19:04:59 [INFO] - ...migration module activated in 183.940ms
+19:04:59 [INFO] - activation sequence for Fiori tools - Application Modeler done in 2482.621ms

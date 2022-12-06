@@ -1,0 +1,17 @@
+[2022-12-06T19:31:36.646Z] Log level: Info
+[2022-12-06T19:31:36.648Z] [info] Validating found git in: git
+[2022-12-06T19:31:36.982Z] [info] Using git 2.30.2 from git
+[2022-12-06T19:31:37.132Z] > git rev-parse --show-toplevel [92ms]
+[2022-12-06T19:31:37.272Z] > git rev-parse --git-dir --git-common-dir [106ms]
+[2022-12-06T19:31:37.290Z] [info] Open repository: /home/user/projects/SmartCanteen
+[2022-12-06T19:31:37.336Z] > git status -z -uall [2ms]
+[2022-12-06T19:31:37.368Z] > git symbolic-ref --short HEAD [5ms]
+[2022-12-06T19:31:37.412Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+[2022-12-06T19:31:37.475Z] > git remote --verbose [5ms]
+[2022-12-06T19:31:37.476Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [36ms]
+[2022-12-06T19:31:37.514Z] > git config --get commit.template [2ms]
+[2022-12-06T19:31:50.894Z] > git check-ignore -v -z --stdin [1ms]
+[2022-12-06T19:31:58.293Z] > git check-ignore -v -z --stdin [4ms]
+[2022-12-06T19:32:13.747Z] > git show --textconv :.vscode/settings.json [26ms]
+[2022-12-06T19:32:13.747Z] > git ls-files --stage -- /home/user/projects/SmartCanteen/.vscode/settings.json [3ms]
+[2022-12-06T19:32:13.776Z] > git cat-file -s 9e26dfeeb6e641a33dae4961196235bdb965b21b [3ms]

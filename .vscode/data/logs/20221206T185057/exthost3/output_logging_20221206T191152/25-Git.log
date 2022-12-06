@@ -1,0 +1,26 @@
+[2022-12-06T19:12:06.311Z] Log level: Info
+[2022-12-06T19:12:06.316Z] [info] Validating found git in: git
+[2022-12-06T19:12:06.556Z] [info] Using git 2.30.2 from git
+[2022-12-06T19:12:06.674Z] > git rev-parse --show-toplevel [75ms]
+[2022-12-06T19:12:06.790Z] > git rev-parse --git-dir --git-common-dir [80ms]
+[2022-12-06T19:12:06.801Z] [info] Open repository: /home/user/projects/SmartCanteen
+[2022-12-06T19:12:06.834Z] > git status -z -uall [2ms]
+[2022-12-06T19:12:06.861Z] > git symbolic-ref --short HEAD [7ms]
+[2022-12-06T19:12:06.886Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-12-06T19:12:06.938Z] > git remote --verbose [3ms]
+[2022-12-06T19:12:06.939Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [31ms]
+[2022-12-06T19:12:06.971Z] > git config --get commit.template [1ms]
+[2022-12-06T19:25:07.539Z] > git check-ignore -v -z --stdin [2ms]
+[2022-12-06T19:29:27.854Z] > git checkout -q master [6ms]
+[2022-12-06T19:29:27.878Z] > git status -z -uall [1ms]
+[2022-12-06T19:29:27.905Z] > git symbolic-ref --short HEAD [2ms]
+[2022-12-06T19:29:27.926Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-12-06T19:29:27.968Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+[2022-12-06T19:29:27.969Z] > git remote --verbose [2ms]
+[2022-12-06T19:29:27.995Z] > git config --get commit.template [1ms]
+[2022-12-06T19:29:29.966Z] > git status -z -uall [2ms]
+[2022-12-06T19:29:30.007Z] > git symbolic-ref --short HEAD [1ms]
+[2022-12-06T19:29:30.034Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-12-06T19:29:30.093Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [33ms]
+[2022-12-06T19:29:30.094Z] > git remote --verbose [2ms]
+[2022-12-06T19:29:30.128Z] > git config --get commit.template [1ms]

@@ -1,0 +1,18 @@
+{
+  "label": "service-center",
+  "level": "warn",
+  "message": "Activating the 'vscode-wing-service-center' extension...",
+  "time": "2022-12-06T19:54:08.511Z"
+}
+{
+  "label": "service-center",
+  "level": "warn",
+  "message": "An action has been added for the CAP project type.",
+  "time": "2022-12-06T19:54:08.522Z"
+}
+{
+  "label": "service-center",
+  "level": "warn",
+  "message": "The 'vscode-wing-service-center' extension is active.",
+  "time": "2022-12-06T19:54:08.874Z"
+}

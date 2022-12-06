@@ -1,0 +1,6 @@
+[2022-12-06T18:53:02.700Z] Log level: Info
+[2022-12-06T18:53:02.703Z] [info] Validating found git in: git
+[2022-12-06T18:53:02.875Z] [info] Using git 2.30.2 from git
+[2022-12-06T19:04:25.315Z] > git clone https://github.com/ivohashamov/SmartCanteen.git /home/user/projects/SmartCanteen --progress [510ms]
+[2022-12-06T19:04:25.315Z] Cloning into '/home/user/projects/SmartCanteen'...
+warning: You appear to have cloned an empty repository.

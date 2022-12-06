@@ -1,0 +1,71 @@
+./usr/bin/npm  config set registry http://nginx-redirector.repo-cache.svc.cluster.local/repository/appstudio-npm-group/
+Failed to exec  config set registry http://nginx-redirector.repo-cache.svc.cluster.local/repository/appstudio-npm-group/ cause Error: Command failed: ./usr/bin/npm  config set registry http://nginx-redirector.repo-cache.svc.cluster.local/repository/appstudio-npm-group/
+/bin/sh: 1: ./usr/bin/npm: not found
+
+npm  config set @sap-ux-rel:registry https://common.repositories.cloud.sap/artifactory/api/npm/deploy.milestones.npm/
+npm  config set @sap-cds:registry https://common.repositories.cloud.sap/api/npm/deploy.releases.npm/
+npm  config set @bas-dev:registry https://common.repositories.cloud.sap/api/npm/devx-npm-live/
+npm  config set @sap-lcnc:registry https://common.repositories.cloud.sap/api/npm/deploy.releases.npm/
+npm  config set @devx-wing:registry https://common.repositories.cloud.sap/api/npm/devx-npm-live/
+yarn global add --prefix /extbin/npm/globals --global-folder /extbin/npm/globals/lib @sap/generator-fiori@1.8.2 @sap/generator-cap-project@1.6.6 @sap/cds-dk@6.3.1
+[1/4] Resolving packages...
+warning @sap/generator-cap-project > @vscode-logging/logger > streamroller@2.2.3: 2.x is no longer supported. Please upgrade to 3.x or higher.
+warning @sap/generator-cap-project > @vscode-logging/logger > streamroller > date-format@2.1.0: 2.x is no longer supported. Please upgrade to 4.x or higher.
+warning @sap/cds-dk > sqlite3 > node-gyp > make-fetch-happen > cacache > @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+warning "@sap/generator-fiori@1.8.2" has no binaries
+warning "@sap/generator-cap-project@1.6.6" has no binaries
+success Installed "@sap/cds-dk@6.3.1" with binaries:
+      - cds
+      - cds-ts
+Installation summary of Yeoman generators, global npm packages, VS Code extensions, and CLIs:
+Installation summary of the "ext-cdstoolsbastrial/cds-bas-extension" extension (created by "SAP(HAN-WDE-EDT-CDS)"):
+    The @sap/vscode-cds VS Code extension was installed successfully.
+    The @sap/generator-cap-project node module was installed successfully.
+    The @sap/cds-dk node module was installed successfully.
+Installation summary of the "vscode-mta-editor/vscode-mta-editor" extension:
+    The @bas-dev/vscode-mta-editor VS Code extension was installed successfully.
+    The @bas-dev/vscode-mta-editor VS Code extension signature was validated successfully.
+Installation summary of the "java-dev-tools/java-dev-tools" extension:
+    The @devx-wing/vscode-java-dependency VS Code extension was installed successfully.
+    The @devx-wing/vscode-java-dependency VS Code extension signature was validated successfully.
+    The @devx-wing/vscode-java-test VS Code extension was installed successfully.
+    The @devx-wing/vscode-java-test VS Code extension signature was validated successfully.
+    The @devx-wing/vscode-java-debug VS Code extension was installed successfully.
+    The @devx-wing/vscode-java-debug VS Code extension signature was validated successfully.
+    The @devx-wing/vscode-java-run VS Code extension was installed successfully.
+    The @devx-wing/vscode-java-run VS Code extension signature was validated successfully.
+    The @devx-wing/vscode-spring-boot-tools VS Code extension was installed successfully.
+    The @devx-wing/vscode-spring-boot-tools VS Code extension signature was validated successfully.
+    The @devx-wing/vscode-redhat-java VS Code extension was installed successfully.
+    The @devx-wing/vscode-redhat-java VS Code extension signature was validated successfully.
+Installation summary of the "ext-mckbj-trial/development-productivity-tools" extension (created by "SAP(MOB-MDE-MDK)"):
+    The @sap-lcnc/guided-development VS Code extension was installed successfully.
+    The @sap-lcnc/guided-development VS Code extension signature was validated successfully.
+    The @sap-lcnc/run-config VS Code extension was installed successfully.
+    The @sap-lcnc/run-config VS Code extension signature was validated successfully.
+Installation summary of the "ext-mckbj-trial/cds-modeller" extension (created by "SAP(MOB-MDE-MBG)"):
+    The @sap-cds/cds-editor VS Code extension was installed successfully.
+    The @sap-cds/cds-editor VS Code extension signature was validated successfully.
+Installation summary of the "w5g-wing/w5g-wing" extension:
+    The @bas-dev/vscode-w5g VS Code extension was installed successfully.
+    The @bas-dev/vscode-w5g VS Code extension signature was validated successfully.
+Installation summary of the "ext-sap-ux-trial/sap-ux-all-extensions" extension (created by "SAP(CA-UX-IDE)"):
+    The @sap-ux-rel/sap-ux-service-modeler-extension VS Code extension was installed successfully.
+    The @sap-ux-rel/sap-ux-service-modeler-extension VS Code extension signature was validated successfully.
+    The @sap-ux-rel/sap-ux-help-extension VS Code extension was installed successfully.
+    The @sap-ux-rel/sap-ux-help-extension VS Code extension signature was validated successfully.
+    The @sap-ux-rel/sap-ux-application-modeler-extension VS Code extension was installed successfully.
+    The @sap-ux-rel/sap-ux-application-modeler-extension VS Code extension signature was validated successfully.
+    The @sap-ux-rel/sap-ux-annotation-modeler-extension VS Code extension was installed successfully.
+    The @sap-ux-rel/sap-ux-annotation-modeler-extension VS Code extension signature was validated successfully.
+    The @sap/generator-fiori node module was installed successfully.
+Installation summary of the "ext-hana-tools-trial/hana-runtime-tools" extension (created by "SAP(HAN-BAS)"):
+    The @sap/hana-database-explorer VS Code extension was installed successfully.
+Finished installing App Studio simple extensions components!
+Total install time: 63586 milliseconds
+
+
+START INSTALLATION OF NON SAP EXTENSIONS

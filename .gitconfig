@@ -1,0 +1,6 @@
+[credential]
+	helper = /home/user/.bas-git/bas-git-helper-init.sh
+[user]
+	email = leonardo.staub@tum.de
+	name = Dozo
+	mail = 64401443+staub03@users.noreply.github.com

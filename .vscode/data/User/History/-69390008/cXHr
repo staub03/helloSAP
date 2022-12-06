@@ -1,0 +1,3 @@
+machine github.com
+login <user_id>
+password <user_github personal access token>

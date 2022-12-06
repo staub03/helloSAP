@@ -1,0 +1,12 @@
+[2022-12-06 20:17:15.599] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/node_modules/generator-basic-multitarget-application' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:15.599] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/node_modules/generator-basic-multitarget-application' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:15.599] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/node_modules/generator-basic-multitarget-application' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:15.599] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/node_modules/generator-basic-multitarget-application' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:19.542] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/java11/bin/jar' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:19.542] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/java11/bin/jar' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:19.542] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/java11/bin/jar' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:19.542] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/java11/bin/jar' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:19.542] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/java11/bin/jar' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:19.542] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/java11/bin/jar' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:19.542] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/java11/bin/jar' is beyond a symbolic link\n","exitCode":128}
+[2022-12-06 20:17:19.542] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/user/java11/bin/jar' is beyond a symbolic link\n","exitCode":128}
