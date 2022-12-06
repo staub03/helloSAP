@@ -38,3 +38,5 @@
 20:08:05 [INFO] - manifest.json watched in 0.714ms
 20:08:08 [INFO] - ...migration module activated in 2495.549ms
 20:08:08 [INFO] - activation sequence for Fiori tools - Application Modeler done in 5135.070ms
+20:26:41 [INFO] - Searching for projects in these workspace folders: 
+[ '/home/user/projects/helloSAP' ]

@@ -1,0 +1,27 @@
+[2022-12-06T20:26:55.698Z] Log level: Info
+[2022-12-06T20:26:55.701Z] [info] Validating found git in: git
+[2022-12-06T20:26:55.998Z] [info] Using git 2.30.2 from git
+[2022-12-06T20:26:56.268Z] > git rev-parse --show-toplevel [153ms]
+[2022-12-06T20:26:56.328Z] > git rev-parse --git-dir --git-common-dir [7ms]
+[2022-12-06T20:26:56.336Z] [info] Open repository: /home/user
+[2022-12-06T20:26:56.449Z] > git status -z -uall [64ms]
+[2022-12-06T20:26:56.494Z] > git symbolic-ref --short HEAD [11ms]
+[2022-12-06T20:26:56.540Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+[2022-12-06T20:26:56.622Z] > git remote --verbose [4ms]
+[2022-12-06T20:26:56.622Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [43ms]
+[2022-12-06T20:26:56.680Z] > git config --get commit.template [6ms]
+[2022-12-06T20:26:57.989Z] > git check-ignore -v -z --stdin [6ms]
+[2022-12-06T20:27:02.253Z] > git add -A -- . [72ms]
+[2022-12-06T20:27:02.253Z] error: 'projects/helloSAP/' does not have a commit checked out
+fatal: adding files failed
+[2022-12-06T20:27:16.326Z] > git add -A -- . [21ms]
+[2022-12-06T20:27:16.326Z] error: 'projects/helloSAP/' does not have a commit checked out
+fatal: adding files failed
+[2022-12-06T20:27:50.281Z] > git show --textconv HEAD:.vscode/data/logs/20221206T185057/exthost6/output_logging_20221206T200756/3-vscode-cds.log [57ms]
+[2022-12-06T20:27:50.282Z] > git ls-tree -l HEAD -- /home/user/.vscode/data/logs/20221206T185057/exthost6/output_logging_20221206T200756/3-vscode-cds.log [29ms]
+[2022-12-06T20:27:50.849Z] > git check-ignore -v -z --stdin [29ms]
+[2022-12-06T20:27:51.749Z] > git show --textconv HEAD:.vscode/data/logs/20221206T185057/exthost6/output_logging_20221206T200756/25-Git.log [28ms]
+[2022-12-06T20:27:51.750Z] > git ls-tree -l HEAD -- /home/user/.vscode/data/logs/20221206T185057/exthost6/output_logging_20221206T200756/25-Git.log [3ms]
+[2022-12-06T20:28:10.713Z] > git add -A -- . [23ms]
+[2022-12-06T20:28:10.713Z] error: 'projects/helloSAP/' does not have a commit checked out
+fatal: adding files failed
